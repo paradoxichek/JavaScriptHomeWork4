@@ -52,7 +52,7 @@ let index = prompt('Введите индекс');
 
 if (arr.includes(arr[index])) {
     arr.splice(index, 1);
-    alert('Элемент успешно удален из массива.');
+    alert   ('Элемент успешно удален из массива.');
     console.log(arr);
 } else {
     console.log('Такого элемента в массиве нет.');
